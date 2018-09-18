@@ -1,10 +1,10 @@
 <template>
   <div>
     <nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow text-center fixed-top">
-      <a class="mr-0 p-2 p-lg-4 navbar-brand col-md-4 col-lg-2" href="/FoxShop/dist/#/"><span>小YUYU服飾</span><i class="ml-2 fab fa-firefox"></i></a>
+      <router-link to='/' class="mr-0 p-2 p-lg-4 navbar-brand col-md-4 col-lg-2" ><span>小YUYU服飾</span><i class="ml-2 fab fa-firefox"></i></router-link>
       <div class="navbar-nav px-3 d-flex mr-auto">
         <div class="nav-item text-nowrap row">
-          <a class="nav-link mx-3" href="/FoxShop/dist/#/">首頁</a>
+          <router-link to="/" class="nav-link mx-3" >首頁123</router-link>
           <a class="nav-link mx-3" @click="manCategory" href="#">男士</a>
           <a class="nav-link mx-3" @click="womanCategory" href="#">女士</a>
           <a class="nav-link mx-3" @click="hatCategory" href="#">帽子</a>
