@@ -408,15 +408,6 @@
         max-height: 95vh
     }
 
-    .border-dark-u {
-        color: aliceblue;
-        display: inline-block;
-        font-size: 20px;
-        padding: 8px;
-        margin: 8px;
-        border: 5px solid aliceblue;
-    }
-
     @media screen and (max-width: 450px) {
         .carousel-hight {
             margin-top: 110px;

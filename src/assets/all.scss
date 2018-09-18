@@ -4,6 +4,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 *{
+    position: relative;
     font-family: 'Noto Sans TC', sans-serif;
 }
 .shopcart {
@@ -26,6 +27,22 @@
 
 .carousel-hight {
     max-height: 200px;
+}
+.content{
+    display: inline-block;
+    height: 60px;
+    margin: 16px 8px;
+}
+.footer-icon{
+    margin: 8px 8px;
+    width: 48px;
+    height: 48px;
+    line-height: 60px;
+    font-size: 36px;
+    transition: all 0.4s;
+}
+.footer-icon:hover{
+    font-size: 48px;
 }
 
 .border-dark-u {

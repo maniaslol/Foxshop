@@ -9,10 +9,24 @@
     <!-- </div>
       </div>
     </div> -->
-    <footer class="text-sm-center bg-secondary p-5 mt-5 text-white">
+    <footer class="text-center bg-secondary p-5 mt-5 text-white">
       <div class="border-dark-u">小YUYU購物網</div>
+      <div>
+        <div class="content">
+            <a class="footer-icon text-white" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <div class="content">
+            <a class="footer-icon text-white" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="content">
+            <a class="footer-icon text-white" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="content">
+            <a class="footer-icon text-white" href="https://www.google.com/"><i class="fab fa-google"></i></a>
+        </div>  
+      </div>
       <p>
-        <a class="text-white" href="https://twitter.com/mdo">聯絡我們</a>
+        <a class="text-white" href="https://twitter.com/">聯絡我們</a>
       </p>
       <p>
         <a class="text-white" href="#" @click.prevent='toTOP()'>Back to top</a>
@@ -72,5 +86,5 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss">
 </style>
