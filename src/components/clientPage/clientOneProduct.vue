@@ -6,14 +6,14 @@
             </button>
         </div>
         <loading :active.sync="isLoading"></loading>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mt-5">
                     <div style="height: 400px; background-position:cover ; background-repeat:no-repeat; background-position: center;"
                         :style="{backgroundImage:`url(${oneProduct.image})`}" alt="Card image cap"></div>
                 </div>
                 <div class="col-md-6 mt-5">
-                    <h5 class="card-title text-left">{{oneProduct.title}}</h5>
+                    <h5 class="card-title text-left mt-5">{{oneProduct.title}}</h5>
                     <p class="card-text text-left"><del class="text-left">NT{{oneProduct.origin_price | moneyFilter}}</del></p>
                     <p class="card-text text-left">NT{{oneProduct.price | moneyFilter}}</p>
                     <div class="btn-group">
