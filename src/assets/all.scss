@@ -1,0 +1,73 @@
+@import "~bootstrap/scss/functions";
+@import "/scss_helper/_variables.scss";
+@import "/scss_helper/_admin.scss";
+@import "~bootstrap/scss/bootstrap";
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.shopcart {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10000;
+}
+
+.feather {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    margin: 0 4px;
+}
+
+.carousel-hight {
+    max-height: 200px;
+}
+
+.border-dark-u {
+    color: aliceblue;
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    border: 5px solid aliceblue;
+}
+
+@media screen and (min-width: 375px) {
+    .carousel-hight {
+        max-height: 600px;
+    }
+}
+.card-btn-dnone{
+width: 32px !important; 
+height: 0;
+transition: ease-in-out 0.6s;
+opacity: 0;
+visibility: hidden;
+overflow: hidden;
+position: absolute;
+transform: translate(-50%,-150%);
+}
+.card-btn-hover{
+  height: 408px;
+}
+.card-btn-hover:hover .card-btn-dnone{
+width: 180px !important; 
+opacity: 1 !important;
+visibility:visible;
+height: 48px!important;
+position: absolute;
+transform: translate(-50%,-15%);
+}
+.card-img-u{
+transition: ease-in-out 0.7s;
+height: 250px ;
+}
+.card-btn-hover:hover .card-img-u{
+transition: ease-in-out 0.7s;
+height: 180px ;
+}
